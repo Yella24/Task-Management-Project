@@ -1,6 +1,6 @@
 # Document Assets
 
-This folder contains image assets used by the Task Management frontend (`task-management`).
+This folder contains image assets used by the Task Management frontend (`Task-Management`).
 
 Usage:
 - Keep all UI images and screenshots here.
