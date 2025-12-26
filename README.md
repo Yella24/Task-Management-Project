@@ -1,8 +1,8 @@
-**# task-managent**
+**# task-management**
 
 **Steps to run the app locally:-**  
 ---
-1. clone the repository git clone https://github.com/pandhivamsi/Task-Management-Project.git  
+1. clone the repository git clone https://github.com/Yella24/Task-Management-Project.git  
 2. npm install  
 3. npm run dev  
 4. npm start  
