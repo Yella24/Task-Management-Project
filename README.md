@@ -1,4 +1,4 @@
-**# Task-Management-Project**
+**# task-managent**
 
 **Steps to run the app locally:-**  
 ---
