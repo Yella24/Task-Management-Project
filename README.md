@@ -1,51 +1,79 @@
-**# task-management**
+# Task Management Project
 
-**Steps to run the app locally:-**  
----
-1. clone the repository git clone https://github.com/Yella24/Task-Management-Project.git  
-2. npm install  
-3. npm run dev  
-4. npm start  
-5. open IDE
-6. Run the springboot App
+A full-stack task management application built with Spring Boot (backend) and React (frontend).
 
-**UseCase Diagram:-**  
-![alt text](document-assets/WhatsApp%20Image%202025-09-24%20at%2011.37.46_2bb870f1.jpg)  
+## Features
 
-**Models:-**  
-![alt text](document-assets/WhatsApp%20Image%202025-09-24%20at%2016.24.38_718d3aa0.jpg)  
+- User authentication and authorization
+- Project management
+- Task/Kanban board
+- User profiles and roles
+- Comments on tasks
 
-**1. User Model**  
-- id: id number  
-- name: name of the user  
-- title : title of the user  
-- organization: name of the organization  
-- workPhone: phone number  
-- mobilePhone: mobile number  
-- email: user email  
-- photo: user photo  
+## Tech Stack
 
-**2. Card Model**  
-- id:id number  
-- title: title of the card  
-- size :size of the card  
-- priority :priority of the card  
-- dueDate:due date  
-- release:release  
-- sprint :sprint  
-- status:status of the card  
+- **Backend**: Spring Boot, Spring Security, JWT, JPA/Hibernate
+- **Frontend**: React, Vite, Bootstrap, React Router
+- **Database**: H2 (for development)
 
-**3. Peoples Model**  
-- firstName: first name of User  
-- lastName: last name of user  
-- loginId: login id  
-- email: email  
-- primaryRole: role  
-- status: present status  
-- id: id number  
+## Steps to Run the App Locally
 
-**4. Projects Model**  
-- id: Project id  
+1. Clone the repository:
+   ```
+   git clone https://github.com/Yella24/Task-Management-Project.git
+   cd Task-Management-Project
+   ```
+
+2. **Backend Setup**:
+   - Navigate to `Task-Management/backend/Tasker`
+   - Run the Spring Boot application (using your IDE or `mvn spring-boot:run`)
+
+3. **Frontend Setup**:
+   - Navigate to `Task-Management/frontend/task-management`
+   - Install dependencies: `npm install`
+   - Start the development server: `npm run dev`
+
+4. Open your browser and go to `http://localhost:5173` (or the port shown by Vite)
+
+## Use Case Diagram
+
+![Use Case Diagram](document-assets/WhatsApp%20Image%202025-09-24%20at%2011.37.46_2bb870f1.jpg)
+
+## Models
+
+![Models Diagram](document-assets/WhatsApp%20Image%202025-09-24%20at%2016.24.38_718d3aa0.jpg)
+
+### 1. User Model
+- id: ID number
+- name: Name of the user
+- title: Title of the user
+- organization: Name of the organization
+- workPhone: Phone number
+- mobilePhone: Mobile number
+- email: User email
+- photo: User photo
+
+### 2. Card Model
+- id: ID number
+- title: Title of the card
+- size: Size of the card
+- priority: Priority of the card
+- dueDate: Due date
+- release: Release
+- sprint: Sprint
+- status: Status of the card
+
+### 3. People Model
+- firstName: First name of user
+- lastName: Last name of user
+- loginId: Login ID
+- email: Email
+- primaryRole: Role
+- status: Present status
+- id: ID number
+
+### 4. Project Model
+- id: Project ID
 - projectName: Project Name  
 
 **APIs**  
